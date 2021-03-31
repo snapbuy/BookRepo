@@ -1,6 +1,6 @@
 import pandas as pd
 
-air = pd.read_csv('data/AirPassengers.csv', parse_dates = True, header = None)
+air = pd.read_csv('Ch02/data/AirPassengers.csv', parse_dates = True, header = None)
 air.columns = ['Date', 'Passengers']
 
 ## thanks to Mark Wilson for this code correction
